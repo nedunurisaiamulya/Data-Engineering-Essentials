@@ -1,0 +1,8 @@
+-- Syntax: <Schema_name>.<TAble-name><Seq_Column_name>_SEQ
+SELECT * FROM application.customers_customer_id_seq;
+
+-- Changing the sequence
+-- Syntax: ALTER SEQUENCE <Schema_name>.<TAble-name><Seq_Column_name>_SEQ RESTART WITH <SEQUENCE_NUMBER>;
+
+ALTER SEQUENCE application.oders_oder_id_seq
+RESTART WITH 1;
