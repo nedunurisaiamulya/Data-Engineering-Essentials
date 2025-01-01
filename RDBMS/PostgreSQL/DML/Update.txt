@@ -1,0 +1,7 @@
+update application.orders 
+set order_status = 'Completed' 
+where  order_status = 'Delivered'
+
+update application.orders 
+set order_status = 'Closed Orders' 
+where  order_status = 'Shipped'

@@ -1,0 +1,3 @@
+Schema creation syntax:
+--CREATE SCHEMA <SCHEMA_NAME>
+CREATE SCHEMA application;
